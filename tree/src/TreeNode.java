@@ -1,8 +1,8 @@
-package tree;
 
 public class TreeNode {
 	
 	int data;
+	TreeNode parent;
 	TreeNode left;
 	TreeNode right;
 	TreeNode(int data){
